@@ -1,0 +1,93 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>冰島自駕行程 2027</title>
+<style>
+:root{--bg:#e4eef2;--card:#fff;--tx:#10242f;--mut:#58727f;--ac:#176a86;--ok:#1c9a73;--go:#c4502b;--bd:#cfdde4;--hd:#0a1f2e;--aur:#3ddc97;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a161d;--card:#12252f;--tx:#e4f0f4;--mut:#8fadb9;--ac:#62c3e3;--ok:#45d1a2;--go:#e8643c;--bd:#223c4a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a161d;--card:#12252f;--tx:#e4f0f4;--mut:#8fadb9;--ac:#62c3e3;--ok:#45d1a2;--go:#e8643c;--bd:#223c4a;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.55 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;padding-bottom:76px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--hd);z-index:10}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;color:#fff;padding:12px 16px 26px;display:flex;justify-content:space-between;align-items:flex-start;background:radial-gradient(120% 140% at 85% -20%,rgba(61,220,151,.55),transparent 55%),radial-gradient(90% 120% at 15% 0,rgba(98,195,227,.35),transparent 60%),var(--hd);overflow:hidden}
+header svg{position:absolute;left:0;bottom:-1px;width:100%;height:30px;pointer-events:none}
+header>div,header>button{position:relative}
+header h1{font-size:19px;margin:0;letter-spacing:.04em}header small{opacity:.85;display:block;font-size:12px;color:#fff}
+.st{display:inline-block;margin-top:2px;font-size:11px;opacity:.9}
+header button{background:rgba(255,255,255,.18);color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:16px;padding:6px 14px;font-size:14px}
+main{padding:10px 14px;max-width:640px;margin:auto}
+h2{font-size:18px;margin:14px 0 2px}.mut,small{color:var(--mut)}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:4px 0}
+.chip{flex:none;border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:12px;padding:4px 10px;font-size:13px;line-height:1.2}
+.chip small{display:block;font-size:11px}.chip.on{background:var(--ac);color:#fff;border-color:var(--ac)}.chip.on small{color:#fff}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 12px;margin:8px 0;display:flex;gap:10px;align-items:center}
+.card>div{flex:1;min-width:0}.tm{color:var(--ac);min-width:46px;font-size:14px;font-variant-numeric:tabular-nums}
+.go,.btn{background:var(--go);color:#fff;text-decoration:none;border:0;border-radius:14px;padding:7px 13px;font-size:13px;flex:none;display:inline-block}
+.route{display:block;text-align:center;margin:10px 0}
+.btn.g{background:transparent;color:var(--ac);border:1px solid var(--ac)}
+.ed{flex-wrap:wrap}.ed input,.add input,.sin{flex:1 1 45%;min-width:0;border:1px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:8px;padding:7px;font-size:14px}.sin{width:100%;margin:6px 0}
+.stay{border-left:4px solid var(--aur)}.stay span{color:var(--mut);font-size:13px}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden;font-size:14px}
+td,th{padding:8px 10px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}th{color:var(--mut);font-weight:500}
+.w{overflow-x:auto}.warn{background:var(--card);border-left:4px solid #e0a030;border-radius:8px;padding:8px 12px;margin:8px 0;font-size:14px}
+label.k{display:flex;gap:10px;align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--bd)}label.k input{margin-top:4px;width:18px;height:18px;accent-color:var(--ok)}
+label.k.done span{text-decoration:line-through;color:var(--mut)}
+.add{display:flex;gap:6px;margin:8px 0}.bar{height:10px;background:var(--bd);border-radius:6px;overflow:hidden;margin:6px 0}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--ac),var(--aur))}
+nav{position:fixed;left:0;right:0;bottom:0;z-index:9;display:flex;background:var(--card);border-top:1px solid var(--bd);padding-bottom:env(safe-area-inset-bottom,0px)}
+nav button{flex:1;border:0;background:none;color:var(--mut);padding:8px 0 6px;font-size:12px}nav button b{display:block;font-size:20px;font-weight:400}nav button.on{color:var(--ac);box-shadow:inset 0 3px 0 var(--aur)}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--aur);outline-offset:2px}
+</style></head><body>
+<header><div><h1>冰島自駕 15 天</h1><small>2027/4/24–5/8｜4 人｜Toyota RAV4</small><span class="st" id="st"></span></div><button id="eb">編輯</button>
+<svg viewBox="0 0 400 30" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30V20L40 8l30 14 40-18 35 20 45-12 40 16 50-20 40 14 45-10 35 18V30z" fill="var(--bg)"/></svg></header>
+<main id="m"></main>
+<nav id="nv"></nav>
+<script>
+const D=[
+{n:1,d:"4/24 六",t:"抵達雷克雅維克",s:"Design apartments in Reykjavik",k:"約 1.5h",i:["17:55|機場入境、換匯|Keflavik International Airport|Arion Bank 換 3–5,000 ISK","19:00|取車 Toyota RAV4|Keflavik Airport car rental|拍照錄影、確認保險","19:30|Costco Iceland 採買|Costco Wholesale Iceland|要會員卡；來不及改 Bónus","21:00|Aktu-Taktu 第一餐|Aktu Taktu Reykjavik|營業至 23:00"]},
+{n:2,d:"4/25 日",t:"雷克雅維克慢遊",s:"Design apartments in Reykjavik",k:"約 0.5h",i:["09:00|Perlan 珍珠樓|Perlan Reykjavik|NT$1,750，Klook 先買","12:45|哈爾格林姆教堂|Hallgrimskirkja|鐘塔 1,500 ISK；車停 P2","14:00|彩虹街與 Laugavegur|Laugavegur Reykjavik|羊毛裝備、Icemart 貓","15:00|Kolaportið 跳蚤市場|Kolaportid Flea Market|11:00–17:00","16:45|Harpa 音樂廳|Harpa Concert Hall|免費","17:30|太陽航海者|Sun Voyager Reykjavik|走路 8 分","18:30|Seabaron 龍蝦湯|Saegreifinn Seabaron Reykjavik|18:00–22:00"]},
+{n:3,d:"4/26 一",t:"黃金圈（上）",s:"Blue View Cabins Reykholt",k:"2h10／134 km",i:["08:45|Costco 加油站|Costco Gas Station Gardabaer|油補滿","09:30|辛格維利爾國家公園|Thingvellir National Park|停車 1,000 ISK，付一次","12:00|Silfra 裂縫浮潛|Silfra Fissure Parking|NT$4,800，場次依訂單；帶毛巾","17:15|Kerið 火口湖|Kerid Crater|17:00 後免費"]},
+{n:4,d:"4/27 二",t:"黃金圈（下）＋南岸",s:"Prestshús 2 Evening Sun Guesthouse Vik",k:"3h30／231 km｜很滿",i:["08:50|Brúarfoss|Bruarfoss Waterfall|750 ISK/4h","09:40|Strokkur 間歇泉|Strokkur Geyser|","10:50|Gullfoss 黃金瀑布|Gullfoss Waterfall|","12:00|Brúarhlöð 峽谷|Bruarhlod Canyon|","13:15|Samkaup Strax 午餐補給|Samkaup Strax Fludir|","14:35|Woolmarket 羊毛|Woolmarket Local Store Iceland|可君買羊毛線","16:05|Seljalandsfoss|Seljalandsfoss|停車 1,000 ISK","17:35|Gljúfrabúi 秘密瀑布|Gljufrabui|要涉水","18:15|DC-3 飛機殘骸|DC-3 Airplane wreck Eyvindarholt|","19:15|Skógafoss|Skogafoss|停車 1,000 ISK","20:15|Mia’s 炸魚薯條|Mia's Country Van Iceland|必吃","21:15|Krónan Vík|Kronan Vik|21:00 關門，採買要提前"]},
+{n:5,d:"4/28 三",t:"南岸",s:"Hvoll Hostel Kalfafell",k:"3h10／228 km",i:["08:45|Reynisfjara 黑沙灘|Reynisfjara Beach|不要靠近海浪","10:00|Vík 紅教堂|Vik i Myrdal Church|","10:30|Dyrhólaey 半島|Dyrholaey Viewpoint|5/1 起可能封閉","12:45|Eldhraun 熔岩苔原|Eldhraun Lava Field|禁止踩苔蘚","13:30|Fjaðrárgljúfur 羽毛峽谷|Fjadrargljufur Parking|停下方停車場","16:15|Svartifoss 黑瀑布|Skaftafell Visitor Centre|停車 1,000 ISK"]},
+{n:6,d:"4/29 四",t:"冰川健行＋冰河湖",s:"Milk Factory Hofn",k:"約 3.5h",i:["--:--|冰川健行（Skaftafell 集合）|Skaftafell Terminal Tour Center|約 NT$6,500–7,000","--:--|Fjallsárlón 小冰河湖|Fjallsarlon Glacier Lagoon|免費停車","--:--|Jökulsárlón 冰河湖|Jokulsarlon Glacier Lagoon|停車 1,040 ISK/天","--:--|鑽石海灘|Diamond Beach Iceland|6–9 月最佳","--:--|Nettó Höfn 超市|Netto Hofn|08:00–20:00","19:00|Pakkhús 龍蝦餐廳|Pakkhus Restaurant Hofn|約 7,000 ISK/人起","--:--|赫本新橋收費 1,500 ISK|Hornafjordur bridge|過橋後到 spolur.is 付款"]},
+{n:7,d:"4/30 五",t:"蝙蝠山、東峽灣",s:"待訂（埃伊爾斯塔濟）",k:"很滿｜Stuðlagil 與 Day 8 重複",i:["--:--|Vestrahorn 蝙蝠山|Viking Cafe Stokksnes|票 1,000 ISK；查潮汐","--:--|Djúpivogur 神山小鎮|Langabud Djupivogur|","--:--|Folaldafoss|Folaldafoss Parking Iceland|","--:--|Klifbrekku 七層瀑布|Klifbrekku Waterfalls|碎石路，建議 4x4","--:--|93 號公路、Gufufoss|Gufufoss Seydisfjordur|4 月底可能封路","--:--|Seyðisfjörður|Seydisfjordur|Suðurgata 5 遊樂公園","--:--|Stuðlagil 峽谷|Studlagil West Side Parking|停車 1,000 ISK","--:--|埃伊爾斯塔濟超市|Egilsstadir Iceland|營業到 20:00；明天勞動節","--:--|Vök Baths（想去嗎）|Vok Baths Egilsstadir|約 NT$2,000"]},
+{n:8,d:"5/1 六",t:"勞動節｜鑽石圈",s:"待訂（米湖）",k:"約 5h／290 km",i:["09:15|Stuðlagil 西岸|Studlagil West Side Parking|停車 1,000 ISK","11:40|Dettifoss 黛提瀑布|Dettifoss West Parking|走 862 公路","13:50|Selfoss|Selfoss Waterfall Iceland|走 30 分","14:30|Hverir 地熱谷|Hverir Namafjall|停車 1,400 ISK","15:45|Krafla Víti 火山口|Viti Crater Krafla|","17:30|Earth Lagoon 米湖溫泉|Earth Lagoon Myvatn|約 NT$3,000（估）"]},
+{n:9,d:"5/2 日",t:"賞鯨＋阿克雷里",s:"待訂（阿克雷里）",k:"約 2.5h",i:["09:30|Húsavík 賞鯨|Husavik Whale Watching Harbour|約 NT$3,000–3,800（估）","14:30|Goðafoss 神之瀑布|Godafoss Waterfall|","16:00|阿克雷里市區|Akureyri Church|超市補貨","--:--|Forest Lagoon（備）|Forest Lagoon Akureyri|約 NT$2,500（估）"]},
+{n:10,d:"5/3 一",t:"北部海岸",s:"待訂（Hvammstangi）",k:"約 5.5h／330 km｜可砍備選",i:["09:45|Siglufjörður|Siglufjordur Iceland|鯡魚博物館春季可能未開","12:30|Hofsós 泳池（備）|Hofsos Swimming Pool|","16:00|Hvítserkur 海蝕岩|Hvitserkur Iceland|","17:00|Vatnsnes 看海豹|Illugastadir Seal Watching Vatnsnes|"]},
+{n:11,d:"5/4 二",t:"瀑布溫泉，進斯奈山半島",s:"待訂（Grundarfjörður）",k:"約 5.5h／390 km",i:["11:00|Hraunfossar 熔岩瀑布|Hraunfossar Waterfalls|","12:50|Deildartunguhver 溫泉|Deildartunguhver Hot Spring|","14:00|Borgarnes 午餐補貨|Borgarnes Iceland|","17:00|Kirkjufell 教堂山|Kirkjufellsfoss|日落前光最好"]},
+{n:12,d:"5/5 三",t:"斯奈山半島西段",s:"待訂（Grundarfjörður，連住）",k:"約 3.5h／200 km",i:["11:00|Djúpalónssandur|Djupalonssandur Beach|","12:15|Lóndrangar|Londrangar Iceland|","13:00|Arnarstapi–Hellnar 步道|Arnarstapi Hellnar trail|單程約 1 小時","15:30|Búðir 黑教堂|Budakirkja Black Church|","16:30|Ytri Tunga 海豹灘|Ytri Tunga Seal Beach|"]},
+{n:13,d:"5/6 四",t:"耶穌升天日｜回雷克雅維克",s:"待訂（Keflavík）",k:"約 3h／270 km",i:["10:00|Stykkishólmur 港口|Stykkisholmur Harbour|假日店家多休息","14:30|Laugavegur 買紀念品|Laugavegur Reykjavik|先查營業時間","--:--|Sky Lagoon（備）|Sky Lagoon Kopavogur|約 NT$4,000（估）"]},
+{n:14,d:"5/7 五",t:"雷克雅內斯＋溫泉",s:"待訂（Keflavík，連住）",k:"約 3h／200 km",i:["09:30|Reykjanesviti 燈塔|Reykjanes Lighthouse|","10:15|Gunnuhver 地熱區|Gunnuhver Hot Springs|","11:15|Bridge Between Continents|Bridge Between Continents Iceland|","12:00|Brimketill|Brimketill Lava Rock Pool|","15:00|Blue Lagoon|Blue Lagoon Iceland|要預約；先查 safetravel.is","18:00|加油、確認還車油量|Keflavik gas station|20:30 前睡"]},
+{n:15,d:"5/8 六",t:"還車、返台",s:"",k:"",i:["04:00|從飯店出發|Keflavik Airport|","05:00|還車（訂單時間）|Keflavik Airport car rental|拍照留證","07:30|EK3342 KEF→DUB 11:05|Keflavik International Airport|都柏林轉機 3h15","14:20|EK162 DUB→DXB 00:50|Dublin Airport|5/9","03:45|EK366 DXB→TPE 16:10|Dubai International Airport|5/9"]}];
+const ST=[["4/24–4/26","Design apartments in Reykjavik","雷克雅維克","免費取消 4/16"],["4/26–4/27","Blue View Cabins Reykholt","Reykholt","4/18"],["4/27–4/28","Prestshús 2 Evening Sun Guesthouse Vik","維克","4/12"],["4/28–4/29","Hvoll Hostel Kalfafell","Kálfafell","4/22"],["4/29–4/30","Milk Factory Hofn","赫本","已扣款"]];
+const NS=[["4/30","埃伊爾斯塔濟","停車場、廚房；勞動節前備好食物"],["5/1","米湖 Reykjahlíð","超市休息，自備食物"],["5/2","阿克雷里","市中心停車難"],["5/3","Hvammstangi／Blönduós","選擇少，早訂"],["5/4–5/5","Grundarfjörður（連住 2 晚）",""],["5/6–5/7","Keflavík（連住 2 晚）","24 小時自助入住，離還車點近"]];
+const PK=["護照、國際駕照、台灣駕照正本","主要駕駛人信用卡（要有 PIN）","機票與住宿訂單列印","英國 ETA（4 人）","保暖層次衣物、防風防水外套、防水褲","防水登山鞋、襪子多帶","帽子、手套","泳衣、毛巾（Silfra 沒有盥洗區）","眼罩、太陽眼鏡","C／F 型插座、車充、手機車架、行動電源","保溫瓶、零食（冰川健行要自備）","常備藥、暖暖包、防水袋、小背包","綁好 Parka App 的信用卡","下載 Google Maps 離線地圖"];
+const BE=[["住宿（已訂 5 晚）",13338],["住宿（未訂 8 晚，估）",21300],["租車與保險（估，待填）",14000],["油費（估）",4700],["門票、餐飲、停車（估）",48700],["其他（估）",5000]];
+const $=s=>document.querySelector(s),e=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dir=q=>"https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(q);
+const ld=(k,f)=>{try{const v=localStorage.getItem(k);return v?JSON.parse(v):f}catch(_){return f}},sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(_){}};
+let days=ld("ice-days",null)||D.map(x=>({...x,i:x.i.map(r=>r.split("|"))})),pk=ld("ice-pk",{}),ex=ld("ice-ex",[]),cur=0,tab=0,ed=false,db=null,ro=false;const tmr={};
+function save(k){const v=k=="days"?days:k=="pk"?pk:ex;sv("ice-"+k,v);if(!db||ro)return;clearTimeout(tmr[k]);tmr[k]=setTimeout(()=>{db.doc("trip/"+k).set({j:JSON.stringify(v)}).catch(x=>{if(x&&x.code=="invalid_argument"){ro=true;ed=false;R()}})},400)}
+const go=q=>`<a class="go" target="_blank" rel="noopener" href="${dir(q)}">導航</a>`;
+function vDay(){const d=days[cur];let h='<div class="chips">'+days.map((x,i)=>`<button class="chip${i==cur?" on":""}" data-day="${i}">D${x.n}<small>${e(x.d.split(" ")[0])}</small></button>`).join("")+"</div>";
+h+=`<h2>Day ${d.n}｜${e(d.d)}｜${e(d.t)}</h2><small>${e(d.k||"")}</small>`;
+d.i.forEach((x,j)=>{h+=ed?`<div class="card ed"><input data-j="${j}" data-f="0" value="${e(x[0])}" placeholder="時間"><input data-j="${j}" data-f="1" value="${e(x[1])}" placeholder="地點"><input data-j="${j}" data-f="3" value="${e(x[3]||"")}" placeholder="備註"><input data-j="${j}" data-f="2" value="${e(x[2]||"")}" placeholder="地圖搜尋字"><button class="btn g" data-del="${j}">刪除</button></div>`:`<div class="card"><b class="tm">${e(x[0])}</b><div>${e(x[1])}<br><small>${e(x[3]||"")}</small></div>${go(x[2]||x[1])}</div>`});
+if(ed)h+='<button class="btn" data-add="1">＋ 新增行程</button>';
+const pts=d.i.map(x=>x[2]||x[1]).filter(Boolean).slice(0,11);
+if(!ed&&pts.length>1)h+=`<a class="btn route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&travelmode=driving&origin=${encodeURIComponent(pts[0])}&destination=${encodeURIComponent(pts[pts.length-1])}&waypoints=${encodeURIComponent(pts.slice(1,-1).join("|"))}">開啟當日完整路線</a>`;
+if(ed)h+=`<input class="sin" data-s="1" value="${e(d.s||"")}" placeholder="今晚住宿（已訂請填名稱，未訂以「待訂」開頭）">`;
+else if(d.s)h+=`<div class="card stay"><div><span>今晚住宿</span><br>${e(d.s)}</div>${d.s.startsWith("待訂")?"":go(d.s)}</div>`;
+if(cur>0)h+=`<button class="btn g" data-day="${cur-1}">← 前一天</button> `;if(cur<14)h+=`<button class="btn" data-day="${cur+1}">下一天 →</button>`;
+return h}
+function vTr(){return`<h2>機票</h2><div class="w"><table><tr><th>航班</th><th>時間</th></tr><tr><td>EK387 TPE→DXB</td><td>4/24 00:30→06:00</td></tr><tr><td>EK015 DXB→LGW</td><td>08:00→12:35</td></tr><tr><td>EK3387 LGW→KEF</td><td>15:40→17:55</td></tr><tr><td>EK3342 KEF→DUB</td><td>5/8 07:30→11:05</td></tr><tr><td>EK162 DUB→DXB</td><td>14:20→5/9 00:50</td></tr><tr><td>EK366 DXB→TPE</td><td>03:45→16:10</td></tr></table></div><div class="warn">蓋特威轉機 3h05：多數資料顯示需要英國 ETA，請以 GOV.UK 為準。</div><h2>租車</h2><div class="card"><div>Toyota RAV4｜取車 4/24 19:00｜還車 5/8 05:00<br><small>刷卡人為主要駕駛人</small></div>${go("Keflavik Airport car rental")}</div><div class="card"><div>帶國際駕照＋台灣駕照正本＋信用卡。取車繞車拍照錄影。<br><small>開車門抓緊門把，強風吹壞不在保險範圍。油量低於一半就加，加油機常要 4 位數 PIN。</small></div></div><div class="card"><div>路況 road.is｜天氣 vedur.is｜安全 safetravel.is｜緊急 112<br><small>停車費用 Parka App；F 路不開。</small></div></div>`}
+function vSt(){return`<h2>已訂住宿</h2>`+ST.map(x=>`<div class="card stay"><div><b>${e(x[0])}</b><br>${e(x[1].replace(/ (Reykholt|Vik|Kalfafell|Hofn)$/,""))}<br><small>${e(x[2])}｜${e(x[3])}</small></div>${go(x[1])}</div>`).join("")+`<h2>待訂 8 晚</h2>`+NS.map(x=>`<div class="card"><div><b>${e(x[0])}</b>｜${e(x[1])}<br><small>${e(x[2])}</small></div></div>`).join("")+`<small>條件：停車場、廚房、洗衣、早餐；用 Booking 免費取消。訂好後到「行程」編輯模式更新每日住宿。</small>`}
+function vPk(){const n=PK.filter((_,i)=>pk[i]).length;return`<h2>行李清單</h2><small>${n}／${PK.length} 完成（全員共用）</small><div class="bar"><i style="width:${n/PK.length*100}%"></i></div>`+PK.map((x,i)=>`<label class="k${pk[i]?" done":""}"><input type="checkbox" data-pk="${i}"${pk[i]?" checked":""}${ro?" disabled":""}><span>${e(x)}</span></label>`).join("")}
+function vBu(){const t=BE.reduce((a,b)=>a+b[1],0),u=ex.reduce((a,b)=>a+b.a,0);return`<h2>預算估算（每人，NT$）</h2><div class="w"><table>`+BE.map(x=>`<tr><td>${e(x[0])}</td><td>${x[1].toLocaleString()}</td></tr>`).join("")+`<tr><th>合計</th><th>${t.toLocaleString()}</th></tr></table></div><div class="warn">預算上限 100,000，估算超出約 ${(t-1e5).toLocaleString()}。冰川健行照 NT$6,500–7,000 算。</div><h2>記帳（全員共用）</h2>`+(ro?"":`<div class="add"><input id="en" placeholder="項目"><input id="ea" type="number" inputmode="numeric" placeholder="NT$"><button class="btn" data-ex="1">新增</button></div>`)+ex.map((x,i)=>`<div class="card"><div>${e(x.n)}</div><b>${x.a.toLocaleString()}</b>${ro?"":`<button class="btn g" data-xd="${i}">刪</button>`}</div>`).join("")+`<small>已記 ${u.toLocaleString()}｜剩餘 ${(1e5-13338-u).toLocaleString()}（已扣已訂住宿）</small>`}
+const TB=[["📅","行程",vDay],["🚗","交通",vTr],["🏨","住宿",vSt],["🧳","行李",vPk],["💰","預算",vBu]];
+function R(){$("#m").innerHTML=TB[tab][2]();$("#nv").innerHTML=TB.map((x,i)=>`<button class="${i==tab?"on":""}" data-tab="${i}"><b>${x[0]}</b>${x[1]}</button>`).join("");$("#eb").style.display=tab==0&&!ro?"":"none";$("#eb").textContent=ed?"完成":"編輯";$("#st").textContent=db?(ro?"● 唯讀":"● 共同編輯中"):"○ 僅存本機"}
+document.addEventListener("click",ev=>{const t=ev.target.closest("[data-tab],[data-day],[data-del],[data-add],[data-ex],[data-xd],#eb");if(!t)return;const d=t.dataset;
+if(d.tab!=null){tab=+d.tab}else if(d.day!=null){cur=+d.day;scrollTo(0,0)}else if(d.del!=null){days[cur].i.splice(+d.del,1);save("days")}else if(d.add){days[cur].i.push(["--:--","新行程","",""]);save("days")}
+else if(d.ex){const n=$("#en").value.trim(),a=+$("#ea").value;if(n&&a){ex.push({n,a});save("ex")}}else if(d.xd!=null){ex.splice(+d.xd,1);save("ex")}else if(t.id=="eb"){ed=!ed}R()});
+document.addEventListener("input",ev=>{const t=ev.target;if(t.dataset.f!=null){days[cur].i[+t.dataset.j][+t.dataset.f]=t.value;save("days")}else if(t.dataset.s!=null){days[cur].s=t.value;save("days")}});
+document.addEventListener("change",ev=>{const t=ev.target;if(t.dataset.pk!=null){pk[+t.dataset.pk]=t.checked;save("pk");R()}});
+R();
+(async()=>{try{if(!window.claude)return;db=await claude.use("db");if(!db)return;const u=await claude.use("user");if(u&&u.can("data.write")===false)ro=true;
+for(const k of["days","pk","ex"])db.doc("trip/"+k).onSnapshot(s=>{if(!s.exists)return;try{const v=JSON.parse(s.data().j);if(k=="days")days=v;else if(k=="pk")pk=v;else ex=v;sv("ice-"+k,v);const a=document.activeElement;if(!(a&&a.tagName=="INPUT"))R()}catch(_){}},()=>{});
+R()}catch(_){}})();
+</script></body></html>
